@@ -4,11 +4,11 @@ variable "subscription_id" {
 
 variable "resource_group_name" {
   description = "Name of the resource group in which the resources will be created"
-  default     = "myResourceGroup"
+  default     = "vmss-image-test"
 }
 
 variable "location" {
-  default     = "eastus"
+  default     = "canadaeast"
   description = "Location where resources will be created"
 }
 
